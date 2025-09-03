@@ -1,0 +1,91 @@
+@media (max-width: 56em) {
+  .page-top {
+    padding: 3rem 5% 0rem 5%;
+    margin-right: 0rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  .btn-mobile {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+  .page-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-I {
+    text-align: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+  p {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+  .learn:link,
+  .learn:visited {
+    font-size: 1.5rem;
+  }
+
+  .p-green,
+  .p-blue {
+    padding-bottom: 2rem;
+  }
+  .testimonials {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .img-testimonial {
+    padding: 2rem 0rem;
+  }
+  .testimonial-text {
+    font-size: 1.75rem;
+    padding-bottom: 1.5rem;
+  }
+  .img-gallery {
+    flex: none;
+    display: grid;
+    grid-template-columns: (repeat(2, 1fr));
+  }
+  .gallery-img-1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .gallery-img-2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+}
+/* 576px */
+@media (max-width: 36em) {
+  html {
+    font-size: 55%;
+  }
+  h1 {
+    max-width: 45rem;
+    font-size: 4rem;
+  }
+  .section-I {
+    gap: 2rem;
+    padding: 2rem 3rem;
+  }
+  .p-green,
+  .p-blue {
+    max-width: 50rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .img-testimonial {
+    width: 8rem;
+  }
+}
+@media (max-width: 30em) {
+}

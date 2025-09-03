@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="page-top">
+        <img alt="logo-image" src="/images/logo.svg" />
+        <button class="btn-mobile">
+          <img alt="btn-mobile" src="/images/icon-hamburger.svg" />
+        </button>
+        <nav class="navigation">
+          <ul>
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#services">Services</a></li>
+            <li><a class="main-nav-link" href="#projects">Projects</a></li>
+            <li>
+              <a class="main-nav-link contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="modal-container closed">
+        <div class="modal-triangle"></div>
+        <div class="modal">
+          <ul class="ul-mobile">
+            <li><a class="main-nav-link-mobile" href="#about">About</a></li>
+            <li>
+              <a class="main-nav-link-mobile" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="main-nav-link-mobile" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="main-nav-link contact-mobile" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="headline">
+        <h1>We are creatives</h1>
+        <a class="arrow" href="#about">
+          <img
+            class="arrow-icon"
+            alt="arrow-icon"
+            src="/images/icon-arrow-down.svg"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="img-container img-1"></div>
+      <section id="about" class="section-I section-1">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <a class="learn" href="#learn">Learn more</a>
+      </section>
+      <div class="img-container img-2"></div>
+      <section id="services" class="section-I section-2">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <a class="learn learn-2" href="#learn">Learn more</a>
+      </section>
+
+      <section id="projects" class="section-II section-3">
+        <h2 class="heading-section-II">Graphic design</h2>
+        <p class="p-green">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </section>
+      <section class="section-II section-4">
+        <h2 class="heading-section-II">Photography</h2>
+        <p class="p-blue">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </section>
+      <section class="testimonial-section">
+        <h3>Client testimonials</h3>
+        <div class="testimonials">
+          <figure class="testimonial-1">
+            <img
+              class="img-testimonial"
+              alt="image-emily"
+              src="/images/image-emily.jpg"
+            />
+            <blockquote class="testimonial-text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </blockquote>
+            <span class="testimonial-name">Emily R.</span>
+            <span class="testimonial-job">Marketing Director</span>
+          </figure>
+          <figure class="testimonial-2">
+            <img
+              class="img-testimonial"
+              alt="image-thomas"
+              src="/images/image-thomas.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </blockquote>
+            <span class="testimonial-name">Thomas S.</span>
+            <span class="testimonial-job">Chief Operating Officer</span>
+          </figure>
+          <figure class="testimonial-3">
+            <img
+              class="img-testimonial"
+              alt="image-emily"
+              src="/images/image-jennie.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </blockquote>
+            <span class="testimonial-name">Jennie F. </span>
+            <span class="testimonial-job">Business Owner</span>
+          </figure>
+        </div>
+      </section>
+      <div class="img-gallery">
+        <div class="image gallery-img-1"></div>
+        <div class="image gallery-img-2"></div>
+        <div class="image gallery-img-3"></div>
+        <div class="image gallery-img-4"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="logo-container">
+        <img class="logo-footer" src="/images/logo-2.svg" alt="logo-footer" />
+      </div>
+
+      <ul id="contact" class="footer-choices">
+        <li><a class="footer-choice" href="#about">About</a></li>
+        <li><a class="footer-choice" href="#services">Services</a></li>
+        <li><a class="footer-choice" href="#projects">Projects</a></li>
+      </ul>
+      <ul class="footer-logos">
+        <li>
+          <a class="footer-logo" href="#fb"
+            ><img
+              class="logo-facebook"
+              src="/images/icon-facebook.svg"
+              alt="logo-facebook"
+          /></a>
+        </li>
+        <li>
+          <a class="footer-logo" href="#ig"
+            ><img
+              class="logo-instagram"
+              src="/images/icon-instagram.svg"
+              alt="logo-instagram"
+          /></a>
+        </li>
+        <li>
+          <a class="footer-logo" href="#twitter"
+            ><img
+              class="logo-twitter"
+              src="/images/icon-twitter.svg"
+              alt="logo-twitter"
+          /></a>
+        </li>
+        <li>
+          <a class="footer-logo" href="#pinterest">
+            <img
+              class="logo-pinterest"
+              src="/images/icon-pinterest.svg"
+              alt="logo-pinterest"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/Lindas-designs">Linda</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
