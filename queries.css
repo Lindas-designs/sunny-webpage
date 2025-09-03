@@ -1,11 +1,21 @@
-@media (max-width: 56em) {
+@media (max-width: 82em) {
+  html {
+    font-size: 55%;
+  }
   .page-top {
-    padding: 3rem 5% 0rem 5%;
-    margin-right: 0rem;
+    padding-top: 5rem;
   }
-  h1 {
-    font-size: 3.5rem;
+}
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
   }
+}
+@media (max-width: 56em) {
+  html {
+    font-size: 45%;
+  }
+
   .btn-mobile {
     display: block;
   }
@@ -22,17 +32,8 @@
     align-items: center;
   }
 
-  h2 {
-    font-size: 3.5rem;
-  }
   p {
     text-align: center;
-    font-size: 2.25rem;
-    line-height: 3.5rem;
-  }
-  .learn:link,
-  .learn:visited {
-    font-size: 1.5rem;
   }
 
   .testimonials {
@@ -63,7 +64,7 @@
 /* 576px */
 @media (max-width: 36em) {
   html {
-    font-size: 55%;
+    font-size: 40%;
   }
   h1 {
     max-width: 45rem;
@@ -80,6 +81,4 @@
   .img-testimonial {
     width: 8rem;
   }
-}
-@media (max-width: 30em) {
 }

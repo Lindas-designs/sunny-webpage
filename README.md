@@ -13,7 +13,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [ tag and  usage](#-tag-and--usage)
+    - [ tag and usage](#-tag-and--usage)
     - [Aspect ratio usecase](#aspect-ratio-usecase)
     - [Testimonial syntax](#testimonial-syntax)
     - [Jumping to sections using CSS only](#jumping-to-sections-using-css-only)
@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Lindas-designs/sunny-webpage.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
