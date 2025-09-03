@@ -35,10 +35,6 @@
     font-size: 1.5rem;
   }
 
-  .p-green,
-  .p-blue {
-    padding-bottom: 2rem;
-  }
   .testimonials {
     gap: 2rem;
     flex-direction: column;
@@ -80,8 +76,6 @@
   .p-green,
   .p-blue {
     max-width: 50rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
   .img-testimonial {
     width: 8rem;
