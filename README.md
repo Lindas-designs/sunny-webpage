@@ -126,6 +126,7 @@ modalContainer.addEventListener("click", modalClose);
 
 Try mobile-first approach.
 Keep practicing
+Understand throttle function properly https://jarijokinen.com/blog/detecting-scroll-direction-with-javascript/
 
 ### Useful resources
 
